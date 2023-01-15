@@ -14,7 +14,7 @@ class CustomDrawer extends StatelessWidget {
           fontSize: 20.0,
         ),
       ),
-      onTap: () {},
+      onTap: onTap,
     );
   }
 

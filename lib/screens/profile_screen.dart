@@ -7,7 +7,7 @@ import '/widgets/profile_clipper.dart';
 class ProfileScreen extends StatefulWidget {
   final User user;
 
-  ProfileScreen({required this.user});
+  ProfileScreen({this.user});
 
   @override
   _ProfileScreenState createState() => _ProfileScreenState();
@@ -54,7 +54,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     icon: Icon(Icons.menu),
                     iconSize: 30.0,
                     color: Theme.of(context).primaryColor,
-                    onPressed: () => _scaffoldKey.currentState?.openDrawer(),
+                    onPressed: () => _scaffoldKey.currentState.openDrawer(),
                   ),
                 ),
                 Positioned(
