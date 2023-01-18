@@ -41,15 +41,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ClipPath(
                   clipper: ProfileClipper(),
                   child: Image(
-                    height: 300.0,
+                    height: 250.0,
                     width: double.infinity,
                     image: AssetImage(widget.user.backgroundImageUrl),
                     fit: BoxFit.cover,
                   ),
                 ),
                 Positioned(
-                  top: 50.0,
-                  left: 20.0,
+                  top: 55.0,
+                  left: 25.0,
                   child: IconButton(
                     icon: Icon(Icons.menu),
                     iconSize: 30.0,
